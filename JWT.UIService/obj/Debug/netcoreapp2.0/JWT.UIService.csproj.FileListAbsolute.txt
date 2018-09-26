@@ -1,0 +1,11 @@
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\bin\Debug\netcoreapp2.0\JWT.UIService.deps.json
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\bin\Debug\netcoreapp2.0\JWT.UIService.runtimeconfig.json
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\bin\Debug\netcoreapp2.0\JWT.UIService.runtimeconfig.dev.json
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\bin\Debug\netcoreapp2.0\JWT.UIService.dll
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\bin\Debug\netcoreapp2.0\JWT.UIService.pdb
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.csprojResolveAssemblyReference.cache
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.csproj.CoreCompileInputs.cache
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.AssemblyInfoInputs.cache
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.AssemblyInfo.cs
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.dll
+c:\users\qteifan\source\repos\JWT.UIService\JWT.UIService\obj\Debug\netcoreapp2.0\JWT.UIService.pdb
