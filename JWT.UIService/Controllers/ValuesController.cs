@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -20,9 +21,14 @@ namespace JWT.UIService.Controllers
             client.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
             var responseMessage = client.PostAsync("http://localhost:11790/api/auth/token", new StringContent(""));
+
             var token = responseMessage.Result.Content.ReadAsStringAsync().Result;
+            JwtSecurityToken jwtToken = new JwtSecurityTokenHandler().ReadJwtToken(token);
+            var validToken = jwtToken.ValidTo > DateTime.UtcNow;
+
             client.DefaultRequestHeaders.Authorization =
                 new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
             var result = client.GetAsync("http://localhost:10493/api/values");
             var stringResult = result.Result.Content.ReadAsStringAsync().Result;
             return stringResult;
